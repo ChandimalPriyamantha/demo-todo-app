@@ -14,6 +14,11 @@ public class DemoTodoAppApplication {
         return "Hello Guys, we'll develop a demo todo application. ";
     }
 
+    @GetMapping("/ICT")
+    public  String getMessage(){
+        return "You a good boy..!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(DemoTodoAppApplication.class, args);
     }
