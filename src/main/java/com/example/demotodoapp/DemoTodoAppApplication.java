@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoTodoAppApplication {
 
-    @GetMapping("/hello001")
+    @GetMapping("/hello")
     public String message(){
         return "Hello Guys, we'll develop a demo todo application. ";
     }
