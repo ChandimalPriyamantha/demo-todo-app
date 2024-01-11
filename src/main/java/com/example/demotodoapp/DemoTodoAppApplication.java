@@ -14,9 +14,14 @@ public class DemoTodoAppApplication {
         return "Hello Guys, we'll develop a demo todo application. ";
     }
 
-    @GetMapping("/ICT")
+    @GetMapping("/ganidu")
     public  String getMessage(){
-        return "You a good boy..!";
+        return "I have a plain to continue our project. I cna ensure that our project will be success.";
+    }
+
+    @GetMapping("/lakindu")
+    public  String getMessageToLakindu(){
+        return "If we have a cloud infrastructure, It will be esy to continue our project.";
     }
 
     public static void main(String[] args) {
