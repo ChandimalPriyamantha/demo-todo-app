@@ -16,12 +16,12 @@ public class DemoTodoAppApplication {
 
     @GetMapping("/ganidu")
     public  String getMessage(){
-        return "I have a plain to continue our project. I cna ensure that our project will be success.";
+        return "I have a plan to continue our project. I can ensure that our project will be success.";
     }
 
     @GetMapping("/lakindu")
     public  String getMessageToLakindu(){
-        return "If we have a cloud infrastructure, It will be esy to continue our project.";
+        return "If we have a cloud infrastructure facilities, It will be esy to continue our project.";
     }
 
     public static void main(String[] args) {
